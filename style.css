@@ -3,7 +3,6 @@ html,body{
     padding: 0;
     height: 100%;
     width: 100%;
-    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 1.5;
@@ -50,26 +49,18 @@ html,body{
 }
 
 .start-btn p {
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    width: auto;
-    text-align: center;
-    margin: -20px -20px;
-    line-height: 20px;
-    padding: 10px 20px;
-    
-      background: #000000;
-      background:
-          linear-gradient(135deg, transparent 10px, #000000 0) top left,
-          linear-gradient(225deg, transparent 10px, #000000 0) top right,
-          linear-gradient(315deg, transparent 10px, #000000 0) bottom right,
-          linear-gradient(45deg,  transparent 10px, #000000 0) bottom left;
-      background-size: 50% 50%;
-      background-repeat: no-repeat;
-      background-image:
-          radial-gradient(circle at 0 0, rgba(204,0,0,0) 14px, #000000 15px),
-          radial-gradient(circle at 100% 0, rgba(204,0,0,0) 14px, #000000 15px),
-          radial-gradient(circle at 100% 100%, rgba(204,0,0,0) 14px, #000000 15px),
-          radial-gradient(circle at 0 100%, rgba(204,0,0,0) 14px, #000000 15px);
+    font-family: 'Common Pixel', sans-serif;
+    width: 300px;
+    height: 5vh;
+    margin: 2em auto;
+    color: red;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:   -10px 0 0 0 black,
+                   10px 0 0 0 black,
+                   0 -10px 0 0 black,
+                   0 10px 0 0 black;
+  
 }
