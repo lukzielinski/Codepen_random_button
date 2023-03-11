@@ -46,19 +46,19 @@ html,body{
 }
 
 .start-btn p {
-    background-color: #ffd166;
+    background-color: #F4F1DE;
     font-family: 'Common Pixel', sans-serif;
     width: 300px;
     height: 5vh;
     margin: 2em auto;
-    color: red;
+    color: #B42313;
     font-size: 1.5em;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow:   -7px 0 0 0 black,
-                   7px 0 0 0 black,
-                   0 -7px 0 0 black,
-                   0 7px 0 0 black;
+    box-shadow:   -7px 0 0 0 #0F203F,
+                   7px 0 0 0 #0F203F,
+                   0 -7px 0 0 #0F203F,
+                   0 7px 0 0 #0F203F;
   
 }
