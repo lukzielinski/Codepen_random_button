@@ -13,7 +13,7 @@ html,body{
     align-items: center;
     justify-content: center;
 }
-.start{
+.start-btn{
     background-color: #000000;
     color: #ffffff;
     font-size: 20px;
@@ -26,4 +26,12 @@ html,body{
     display: inline-block;
     width: 100px;
     text-align: center;
+}
+
+.start-btn:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    cursor: pointer;
+    transition: 0.3s;
 }
