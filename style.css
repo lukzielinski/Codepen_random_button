@@ -20,14 +20,11 @@ html,body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    border: 1px solid
 }
 .start-btn{
-    font-size: 25px;
-    color: white;
+    font-size: 20px;
     height: auto;
     margin: 10px;
-    font-family: 'VT323';
     
     position: relative;
     display: inline-block;
@@ -49,6 +46,7 @@ html,body{
 }
 
 .start-btn p {
+    background-color: #ffd166;
     font-family: 'Common Pixel', sans-serif;
     width: 300px;
     height: 5vh;
@@ -58,9 +56,9 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow:   -10px 0 0 0 black,
-                   10px 0 0 0 black,
-                   0 -10px 0 0 black,
-                   0 10px 0 0 black;
+    box-shadow:   -7px 0 0 0 black,
+                   7px 0 0 0 black,
+                   0 -7px 0 0 black,
+                   0 7px 0 0 black;
   
 }
