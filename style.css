@@ -11,6 +11,41 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #e4e384;
+    background-image: url("https://cdn.pixabay.com/photo/2022/06/28/08/44/store-7289198_960_720.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.floor{
+    position:absolute;
+    bottom: 0;
+    background-color:rgba(19, 19, 19, 0.59);
+    width: 100%;
+    position: absolute;
+    left: 0;
+    height: 16.5vh;
+}
+
+.character{
+    height: 200px !important;
+    width: 300px !important;
+    background-image: url("https://freesvg.org/img/8-Bit-Character-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    position: absolute ;
+    bottom: 10vh ;
+    left: 0 ;
+    border: 1px solid red;
+    animation: transformX 1s infinite;
+}
+
+.second{
+    position: absolute !important;
+    bottom: 10vh !important;
+    left: 70px !important;
+    border: 1px solid rgb(240, 3, 244);
 }
 
 .container{
@@ -20,6 +55,24 @@ html,body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.first-shop{
+    border: 1px solid rgb(250, 15, 242);
+    height: 99%;
+    width: 45vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.second-shop{
+    border: 1px solid rgb(15, 250, 58);
+    height: 99%;
+    width: 45vw;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .start-btn{
     font-size: 20px;
@@ -46,18 +99,30 @@ html,body{
 }
 
 .start-btn p {
-    background-color: #F4F1DE;
     font-family: 'Common Pixel', sans-serif;
     width: 300px;
     height: 5vh;
     margin: 2em auto;
-    color: #B42313;
     font-size: 1.5em;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #ede7b1;
+    color: #f18701;
     box-shadow:   -7px 0 0 0 #0F203F,
                    7px 0 0 0 #0F203F,
                    0 -7px 0 0 #0F203F,
                    0 7px 0 0 #0F203F;
+}
+
+@keyframe transformX {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
