@@ -36,16 +36,9 @@ html,body{
     background-size: 30%;
     position: absolute ;
     bottom: 10vh ;
-    left: -90px;
-    border: 1px solid red;
-    animation: transformX 6s infinite;
-}
-
-.second{
-    position: absolute !important;
-    bottom: 10vh !important;
-    left: -10px;
-    border: 1px solid rgb(240, 3, 244);
+    left:  60vw;
+    animation: transformX 6s ease-in-out;
+    display: none;
 }
 
 .container{
@@ -117,9 +110,9 @@ html,body{
 
 @keyframes transformX {
     0% {
-        transform: translateX(0);
+        left: 0;
     }
     100% {
-        transform: translateX(60vw);
+        left: 60vw;
     }
 }
